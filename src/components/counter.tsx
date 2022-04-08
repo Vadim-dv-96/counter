@@ -6,7 +6,7 @@ export function Counter(props: BtnPropsType) {
   return (
     <div>
       <Display inc={props.inc} />
-      <Btn inc={props.inc} incValue={props.incValue} reset={props.reset} />
+      <Btn inc={props.inc} incValue={props.incValue} reset={props.reset}/>
     </div>
   );
 }
